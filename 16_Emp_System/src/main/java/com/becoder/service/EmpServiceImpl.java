@@ -45,6 +45,7 @@ public class EmpServiceImpl implements EmpService {
 	}
 
 	public void removeSessionMessage() {
+		@SuppressWarnings("null")
 		HttpSession session = ((ServletRequestAttributes) (RequestContextHolder.getRequestAttributes())).getRequest()
 				.getSession();
 

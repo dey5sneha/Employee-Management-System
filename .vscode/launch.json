@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-Application<16_Emp_System>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.becoder.Application",
+            "projectName": "16_Emp_System",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
